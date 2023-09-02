@@ -1,0 +1,34 @@
+
+<style>
+   .nav-link{
+       
+       font-weight: bold;
+      
+   }
+   .navbar-brand{
+    
+     font-weight: bold !important;
+    
+   }
+   .breadcrumbs>span>a {
+     color: white  !important;
+   }
+   .breadcrumbs>span{
+    color: white  !important;
+   }
+   
+</style>
+<div class="hero-wrap hero-bread" xmlns:th="http://wwww.thymeleaf.org"
+	style="background-image: url(https://images.unsplash.com/photo-1594897030264-ab7d87efc473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80);">
+	<div class="container">
+		<div
+			class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<p class="breadcrumbs">
+					<span class="mr-2"><a href="/home/index">Home</a></span> <span>[[${title}]]</span>
+				</p>
+				<h1 class="mb-0 bread" style="color:white;">[[${title}]]</h1>
+			</div>
+		</div>
+	</div>
+</div>

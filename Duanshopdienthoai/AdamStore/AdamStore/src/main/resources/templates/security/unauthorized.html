@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://wwww.thymeleaf.org"
+	th:replace="~{/layout/layout::dynamic(~{::body})}">
+
+<head>
+<title>AdamStore - Free Bootstrap 4 Template by Colorlib</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body class="goto-here">
+	<div th:replace="/layout/_header_title.html"></div>
+	<style>
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+
+.ava {
+	background:
+		url(https://cdn.dribbble.com/users/1138875/screenshots/4669703/404_animation.gif)
+		!important;
+	background-position: center !important; /* Center the image */
+	background-repeat: no-repeat !important; /* Do not repeat the image */
+	background-size: cover !important;
+	height: 700px;
+}
+
+a {
+	color: #2aa7cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+svg {
+	margin-top: 100px;
+	width: 50vw;
+}
+
+.lightblue {
+	fill: #444;
+}
+
+.eye {
+	cx: calc(115px + 30px * var(- -mouse-x));
+	cy: calc(50px + 30px * var(- -mouse-y));
+}
+
+#eye-wrap {
+	overflow: hidden;
+}
+
+.error-text {
+	font-size: 120px;
+}
+
+.alarm {
+	animation: alarmOn 0.5s infinite;
+}
+
+@keyframes alarmOn {to { fill:darkred;
+	
+}
+}
+</style>
+	<div class="ava">
+
+		<h1>[[#{error.denied}]]</h1>
+		<h2>
+			Go <a href="/home/index">Home!</a>
+		</h2>
+	</div>
+	
+</body>
+
+</html>

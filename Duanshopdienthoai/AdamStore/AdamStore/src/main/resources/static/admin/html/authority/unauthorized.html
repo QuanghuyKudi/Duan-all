@@ -1,0 +1,175 @@
+<!-- Content wrapper -->
+<style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.image-main-title {
+	color: #2d2d2d;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 0.7em 0;
+}
+
+.image-container {
+	padding: 1em 0;
+	float: left;
+	width: auto;
+}
+
+.image-container .image-title {
+	color: #1a1a1a;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.image-content {
+	position: relative;
+	width: max-content;
+	max-width: 400px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.image-content .image-content-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	height: 99%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.image-content:hover .image-content-overlay {
+	opacity: 1;
+}
+
+.image-content-details {
+	position: absolute;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.image-content:hover .image-content-details {
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+}
+
+.image-content-details h3 {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 0.15em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+.image-content-details p {
+	color: #fff;
+	font-size: 0.8em;
+}
+
+.image-fadeIn-bottom {
+	top: 80%;
+}
+
+.image-fadeIn-top {
+	top: 20%;
+}
+
+.image-fadeIn-left {
+	left: 20%;
+}
+
+.image-fadeIn-right {
+	left: 80%;
+}
+</style>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+
+.ava {
+	background: url(https://cdn.dribbble.com/users/1138875/screenshots/4669703/404_animation.gif)!important;
+	 background-position: center!important; /* Center the image */
+   background-repeat: no-repeat!important; /* Do not repeat the image */
+     background-size: cover !important;
+	height: 700px;
+	
+}
+
+a {
+	color: #2aa7cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+svg {
+	margin-top: 100px;
+	width: 50vw;
+}
+
+.lightblue {
+	fill: #444;
+}
+
+.eye {
+	cx: calc(115px + 30px * var(- -mouse-x));
+	cy: calc(50px + 30px * var(- -mouse-y));
+}
+
+#eye-wrap {
+	overflow: hidden;
+}
+
+.error-text {
+	font-size: 120px;
+}
+
+.alarm {
+	animation: alarmOn 0.5s infinite;
+}
+
+@keyframes alarmOn {to { fill:darkred;
+	
+}
+}
+</style>
+<div class="content-wrapper">
+	<!-- Content -->
+	<div class="container-xxl flex-grow-1 container-p-y">
+		<!-- Contextual Classes -->
+		<div class="card">
+			<div class="ava" >
+				
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="content-backdrop fade"></div>
+</div>
+<!-- Content wrapper -->
+</div>
+<!-- / Layout page -->
+
+<!-- Overlay -->
+<div class="layout-overlay layout-menu-toggle"></div>
